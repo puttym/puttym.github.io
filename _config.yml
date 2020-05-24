@@ -1,7 +1,7 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
+title: Sea of Tranquility
+tagline: A blog
+url: https://puttym.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -26,6 +26,11 @@ sass:
   sass_dir: _sass
   style: :compressed
 
+pages_list:
+        About: '/about'
+        Archive: '/archive'
+        Feed: '/atom.xml'
+
 # Options
 
 # Replace this value and uncomment to enable Google Analytics tracking
@@ -33,9 +38,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Madhukara Putty
+  url: https://twitter.com/msputty26
+  email: puttym@gmail.com
 
 # Custom vars
 version: 3.0.0

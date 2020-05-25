@@ -3,7 +3,7 @@ layout: post
 title: "Creating beautiful plots using matplotlib"
 date: 2020-05-17
 category: programming
-permalink: beautiful_graphs_matplotlib
+excerpt: <h3>Creating beautiful graphs of COVI-19 data</h3>
 ---
 
 A blog post on creating high quality visualisations of COVID-19 data.

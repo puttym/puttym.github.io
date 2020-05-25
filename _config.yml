@@ -5,7 +5,7 @@ url: https://puttym.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
-excerpt_separator: <!-break->
+excerpt_separator: <!--excerpt-->
 
 # Gems
 plugins:

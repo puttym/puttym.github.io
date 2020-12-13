@@ -73,7 +73,7 @@ bundle update
 Now, navigate to the root folder of your blog and serve it locally to 
 ensure that things are fine.
 ```ruby
-jekyll serve
+bundle exec jekyll serve
 ```
 
 That's it!

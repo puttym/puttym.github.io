@@ -31,8 +31,8 @@ Usually, the output of this command will be `\usr\bin\ruby`, and
 sometimes, it can be `\usr\local\bin\ruby`. You can now get the
 Ruby version by including the above path in the command:
 ```shell
-\usr\bin\ruby -v #If Ruby is installed at \usr\bin
-\usr\local\bin\ruby -v #If Ruby is installed at \usr\local\bib
+/usr/bin/ruby -v #If Ruby is installed at \usr\bin
+/usr/local/bin/ruby -v #If Ruby is installed at \usr\local\bib
 ``` 
 
 You can also find the version number by looking at the Ruby binaries.

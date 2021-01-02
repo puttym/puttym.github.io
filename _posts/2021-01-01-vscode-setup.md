@@ -17,7 +17,7 @@ After reading this article, you will be able to
 
 3. Change VS Code themes
 
-4. Change settings (both User and Workbench) according to your needs and
+4. Change settings (both User and Workspace) according to your needs, and
 
 5. Add a vertical ruler to the editor.
 
@@ -43,7 +43,7 @@ While this is certainly a good feature, you can make it better by customising
 it according to you needs. Since you want to code in Python, let’s first
 install the Python extension for VS Code.
 
-## Get VS Code Ready for Python
+## Get VS Code ready for Python
 
 In this step, we install a Python extension and select a Python
 interpretor to compile the code.
@@ -59,7 +59,7 @@ one with Microsoft’s name. Click Install in the new window that opens.
 ### Select the Python interpretor
 
 We generally have more than one version of Python interpreter installed.
-Therefore, we need to tell VS Code which version to process the code. This is
+Therefore, we need to tell VS Code which version to use to process the code. This is
 how we do it.
 
 * **Open the Command Palette:**
@@ -80,7 +80,7 @@ to our taste. Let’s start with the overall theme first.
 Press `Ctrl + Shift + P`. Type *Theme* in the Command Palette Window that pops up.
 
 * **Select theme:**
-Select *Preferences: Color Theme* from the list and use upgdown arrow keys to
+Select *Preferences: Color Theme* from the list and use up and down arrow keys to
 test different themes. Choose your favourite by hitting Enter.
 
 ## Change User and Workspace Settings
@@ -119,15 +119,15 @@ At the top of the page, there is an option to choose between *User* and
 want. The changes are automatically saved.
 
 Both User and Workspace Settings are saved in two different files. Both the
-files have the same name settings.json but are created at different
+files have the same name `settings.json` but are created at different
 locations. Table below summarises the two types of settings.
 
 ![User and Workspace Settings](/assets/vscode_settings.png)
 
-## Adding Vertical Rulers
+## Adding vertical rulers
 
 It’s a good practice to have not more than 80 characters in a line of code.
-But, how do we know whether we are well withing this length or not? On can
+But, how do we know whether we are well within this limit? One can
 look at the column number, but that’s not practical. Instead, we can add a
 vertical ruler at the 80th column. This is how you add it:
 

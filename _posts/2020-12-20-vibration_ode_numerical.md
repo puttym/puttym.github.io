@@ -27,7 +27,7 @@ u(t) = I \cos\, \omega t.
 $$
 
 That is, $$u$$ oscillates with an angular frequency $$\omega$$ and amplitude
-$$I$$. The initial condition determines the amplitude of the vidration. In
+$$I$$. The initial condition determines the amplitude of the vibration. In
 Eq. \eqref{eq:vib-ode}, $$t$$ varies continuously from $$0$$ to $$T$$. Since
 there is an $$u(t)$$ for each $$t$$, there are infinitely many values of
 $$t$$ and $$u(t)$$ in the continuous solution. However, when we intend to
@@ -50,17 +50,17 @@ The collection of these points makes a *mesh* or a *grid*. Since there are
 $$N_{t}$$ points from $$t_{1}$$ to $$t_{N_{t}}$$ (both included), there are
 $$N_{t}+1$$ points in the mesh. The mesh points are often uniformly spaced,
 but this is not a strict requirement. In our mesh, we denote the spacing,
-$$t_{n+1} - t_{n}$$, between two consecutive points by $$\Delta t$$. It can
+$$t_{n} - t_{n-1}$$, between two consecutive points by $$\Delta t$$. It can
 be easily proved that $$t_{n} = n\Delta t$$.
 
 $$
 \begin{align*}
-t_{n+1} - t_{n} &= \Delta t \\
-t_{n+1} &= t_{n} + \Delta t \\
-&= (t_{n-1} + \Delta t) + \Delta t \\
-&= (t_{n-2} + \Delta t)  + 2 \Delta t \\
+t_{n} - t_{n-1} &= \Delta t \\
+t_{n} &= t_{n-1} + \Delta t \\
+&= (t_{n-2} + \Delta t) + \Delta t \\
+&= (t_{n-3} + \Delta t)  + 2 \Delta t \\
 &= \vdots \\
-&= t_{0} + n \Delta t \\
+&= t_{n-n} + n \Delta t \\
 &= n \Delta t \quad (\text{because } t_{0} = 0)
 \end{align*}
 $$
@@ -176,7 +176,7 @@ The following observations can be made about Eq. \eqref{eq:vib-recursive}:
 values of the mesh function at two previous points $$t_{n-1}$$ and $$t_{n}$$.
 Hence the name *recursive equation.*
 
-3. $$n$$ varies from $$0$$ to $$N_{t}$$, while it varies from $$0$$ to $$N_{t} - 1$$
+3. $$n$$ varies from $$0$$ to $$N_{t} - 1$$, while it varies from $$0$$ to $$N_{t}$$
 in Eq. \eqref{eq:vib-dis}. This is because, for $$n = N_{t}$$, LHS in
 Eq. \eqref{eq:vib-recursive} would be out of problem domain.
 

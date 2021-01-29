@@ -47,6 +47,9 @@ T = 8, dt = 3
 Nt = T/dt
 Nt = round(Nt) # Returns an integer
 T = Nt * dt # Resetting T
+
+for n in range(1, Nt): # Runs from 1 to Nt-1 
+    u[n+1] = 2*u[n] - u[n-1] - w**2*u[n]*dt**2 # Computes from u[2] to u[Nt]. Nt-1 values
 ```
 In the 'for' loop, the variable `n` ranges from $$0$$ to $$N_{t}$$. However,
 in the algorithm, it goes only till $$N_{t}-1$$. This difference between the

@@ -6,7 +6,7 @@ title: About
 Hi, thanks for visiting my blog!
 
 I am Madhukara Putty. My formal backgrounds are in physics and computational 
-fluid dynamics, but currently I am dabbling with Python and machine learning.
+fluid dynamics.
 
 I am convinced that having the ability to develop quality software is an
 important skill in any area of knowledge today. Therefore, since late 2019,
